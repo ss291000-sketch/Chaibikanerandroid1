@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.chaibikaner.pos'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.chaibikaner.pos'
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}
